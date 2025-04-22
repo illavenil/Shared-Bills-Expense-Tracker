@@ -1,0 +1,23 @@
+.icon-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f0f0f0; 
+  }
+  
+  /* Default for larger screens (e.g., laptops) */
+.groups-list {
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .groups-list {
+    width: 400px;
+  }
+}
